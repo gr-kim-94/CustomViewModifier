@@ -1,5 +1,5 @@
 //
-//  View + ContentAlertView.swift
+//  View + ContentAlert.swift
 //
 //  Created by gr-kim-94 on 2023/05/17.
 //
