@@ -6,7 +6,7 @@
 
 import SwiftUI
 
-struct ViewDivider: ViewModifier {
+struct DividerView: ViewModifier {
     
     var edges: Edge.Set
     var length: CGFloat
@@ -95,6 +95,6 @@ struct ViewDivider: ViewModifier {
 
 extension View {
     func divider(_ edges: Edge.Set = .all, _ length: CGFloat = 1, _ color: Color = .blue) -> some View {
-        modifier(ViewDivider(edges: edges, length: length, color: color))
+        modifier(DividerView(edges: edges, length: length, color: color))
     }
 }
